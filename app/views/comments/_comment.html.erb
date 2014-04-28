@@ -1,0 +1,15 @@
+ 
+ <p>
+    <b>Commenter:</b>
+    <%= comment.commenter %>
+  </p>
+ 
+  <p>
+    <b>Comment:</b>
+    <%= comment.body %>
+  </p>
+ <p>
+  <%= link_to 'Destruir le Commentaire', [comment.post, comment],
+               :confirm => 'Etes vous sur de vouloir supprimer le commentaire?',
+               :method => :delete %>
+</p>
