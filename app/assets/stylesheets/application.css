@@ -14,8 +14,50 @@
  *= require_self
  */
 body{
-	background: #EEE;
+	background: #dcd7ce;
 	margin: auto;
 	width : 960px;
 	color: black;
+	border: 1px solid blue;
+}
+header{
+	background-color: blue;
+	color: white;
+	height: 100px;
+	text-align: center;
+	vertical-align: center;
+	border: 1px solid blue;
+
+}
+header h1{
+	display: inline-block;
+}
+nav{
+	float: right;
+	display: inline-block;
+	vertical-align: bottom;
+}
+article{
+	display: inline-block;
+	width: 680px;
+	border: 1px solid blue;
+	margin: 5px;
+	padding: 5px;
+}
+aside{
+	display: inline-block;
+	height: 400px;
+	width: 190px;
+	margin: 5px;
+	padding: 5px;
+	vertical-align: top;
+	text-align: center;
+	padding: 20px;
+	border: 1px solid blue;
+	
+}
+footer{
+	border: 1px solid blue;
+	margin: 5px;
+	padding: 5px;
 }
